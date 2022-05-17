@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+structlog = "*"
+elasticsearch6 = "==6.8.2"
+requests-aws4auth = "==1.0.1"
+
+[dev-packages]
+click = "==8.0.4"
+pytest-mock = "*"
+moto = "*"
+pytest = "*"
+black = "==22.1.0"
+pycodestyle = "==2.8.0"
+pylint = "==2.12.2"
+mypy = "==0.931"
+
+
+[requires]
+python_version = "3.8"
